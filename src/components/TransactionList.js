@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TransactionList = () => {
     return (
-        <div>
+        <>
             <h3>Transaction History</h3>
       <ul className="list">
          
@@ -12,6 +12,6 @@ export const TransactionList = () => {
 
       </ul>
             
-        </div>
+        </>
     )
 }
