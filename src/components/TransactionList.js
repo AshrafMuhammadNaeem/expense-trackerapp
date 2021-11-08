@@ -3,8 +3,8 @@ import { Transaction } from './Transaction';
 import { GlobalContext } from '../context/GlobalState';
 
 export const TransactionList = () => {
-    const context = useContext(GlobalContext);
-    console.log(context);
+    const { transactions } = useContext(GlobalContext);
+    console.log(transactions);
     return (
         <>
             <h3>Transaction History</h3>
