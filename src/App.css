@@ -122,12 +122,12 @@ input[type='number'] {
   margin: 10px 0;
 }
 
-.list li.plus {
-  border-right: 5px solid #2ecc71;
+.list li.blue {
+  border-right: 5px solid #2eb4cc;
 }
 
-.list li.minus {
-  border-right: 5px solid #c0392b;
+.list li.red {
+  border-right: 5px solid #c02b64;
 }
 
 .delete-btn {
