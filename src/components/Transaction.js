@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Transaction = ({transaction}) => {
-    // created class based on ternary operator to get sign for expense and Income
+    // created ternary operator to get sign for expense and Income
     const sign = transaction.amount < 0 ? '-' : '+'; 
     
     
