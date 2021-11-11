@@ -12,7 +12,7 @@ export const AddTransaction = () => {
       const newTransaction = {
         id: new Date().getTime(),
         text,
-        amount
+        amount: parseInt(amount)
       }
 
       addTransaction(newTransaction);

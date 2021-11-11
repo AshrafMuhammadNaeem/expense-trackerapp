@@ -7,6 +7,8 @@ export const Balance = () => {
     const { transactions } = useContext(GlobalContext);
     const amounts = transactions.map(transaction => transaction.amount);
 
+    console.log(amounts);
+
     // use reduce to get amount from array
 
   const balance = amounts.reduce((sum, item) => (sum += item), 0).toFixed(2);
